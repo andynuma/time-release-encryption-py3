@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pip install --upgrade .
+time python scripts/test.py
+
+time python scripts/bench_pairing.py

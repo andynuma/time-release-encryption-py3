@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+pip = "*"
+flask = "*"
+jinja2 = "*"
+dill = "*"
+flask-cors = "*"
+cpickle = "*"
+codecs = "*"
+
+[requires]
+python_version = "2.7"

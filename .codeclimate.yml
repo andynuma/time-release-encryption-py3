@@ -1,0 +1,11 @@
+engines:
+  radon:
+    enabled: true
+    config:
+      python_version: 2
+      threshold: "D"
+
+ratings:
+  paths:
+    - "**.py"
+    - "**.cpp"
